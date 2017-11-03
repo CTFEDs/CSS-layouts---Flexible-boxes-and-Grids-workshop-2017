@@ -1,5 +1,7 @@
 # CSS layouts - Flexible boxes and Grids
 
+**Workshop outline**
+
 **About you**
 
 --
