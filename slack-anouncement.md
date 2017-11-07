@@ -1,0 +1,1 @@
+via @justinslack and #front-end-dev: The next CTFEDs workshop will be on _CSS layouts - Flexible boxes and Grids_ on 18 November. Sign up here: https://www.meetup.com/ctfeds/events/244871099/
