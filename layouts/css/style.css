@@ -131,13 +131,11 @@ aside {
 /* Footer */
 
 footer {
-  background-color: #22b573;
+  background-color: #f7f7f7;
   border-top: 1px dotted white;
-  color: white;
   padding: 1rem;
 }
 
 footer a {
-  color: white;
   text-decoration: underline;
 }
