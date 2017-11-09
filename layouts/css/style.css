@@ -94,11 +94,12 @@ nav a:hover {
   background-color: #f7f7f7;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   color: #444;
-  margin:  2rem 1rem;
+  margin:  0 1rem 2rem;
   text-decoration: none;
 }
 
 .gallery-text {
+  font-size: 0.875rem;
   padding: 1rem;
   width: 100%;
 }
