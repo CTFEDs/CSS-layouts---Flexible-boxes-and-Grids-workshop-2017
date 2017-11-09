@@ -1,18 +1,20 @@
 /* General styles */
 
-* {
+html {
   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
   color: #334152;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 100%;
-  font-weight: 400;
   height: 100%;
   letter-spacing: 0.01rem;
   line-height: 1.7;
-  max-height: 100%;
 }
 
 a {
@@ -50,82 +52,64 @@ main {
 /* header */
 
 .site-header {
-  padding: 20px;
+  padding: 1.5rem;
   background-color: #f7f7f7;
-
-  /* Flexbox things */
-  /* display: flex; */
-  /* justify-content: space-between; */
 }
 
 .siteHeader-section {
 
-  /* Flexbox things */
-
-  /* display: flex; */
-  /* align-items: center; */
 }
 
 nav ul {
   list-style-type: none;
-  padding: 5px 15px;
   margin: 0;
+  padding: 0.5rem 1rem;
+}
 
-  /* Flexbox things */
-  /* display: flex; */
+nav li {
+  margin-left: 1rem;
+}
 
+nav a {
+  border-radius: 20px;
+  display: block;
+  padding:  0.3rem 1.5rem;
+}
+
+nav a:hover {
+  background-color: #22b573;
+  border:  0;
+  color: white;
 }
 
 /* Gallery item */
 
 .gallery {
-  margin: -1rem;
-  padding:  3rem 0;
-
-  /* display: flex;
-  flex-wrap: wrap; */
+  margin: 0 -1rem;
 }
 
 .gallery-item {
-  background: #f7f7f7;
+  background-color: #f7f7f7;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   color: #444;
   margin:  2rem 1rem;
   text-decoration: none;
-  min-width: calc(25% - 2rem);
-
-  /* flex: 1; */
-/*   display: flex;
-  flex-direction: column;
-
-  */
-
 }
 
 .gallery-text {
   padding: 1rem;
   width: 100%;
-
-  /* display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between; */
 }
 
 .gallery-item p {
-  /* flex-grow: 1; */
+
 }
 
 /* Sidebar styles */
 
 aside {
-  border-left: 1px dotted grey;
-  padding-left: 2rem;
-
-  /*
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
+  background-color: #f7f7f7;
+  padding: 2rem 0 2rem 2rem;
 }
 
 /* Footer */
