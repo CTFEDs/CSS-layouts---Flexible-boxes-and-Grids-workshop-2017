@@ -14,8 +14,24 @@ title: Workshop outline
 
 ## The old ways (10m)
 
+- Discuss old methods of laying out pages with examples
+
 - Table layouts - see if anyone has built these
 - Floats and frameworks (Bootsrap, Foundation, etc) - as above
+- Display properties - `inline-block`, `table`
+- Positioning - `relative`, `absolute`
+- Columns - multiple column layout
+
+---
+
+## Formatting con-text (5m)
+
+- Discuss formatting context in relation to box model
+- Use float example with `float-root`
+
+> ...the environment into which a set of related boxes are laid out. Different formatting contexts lay out their boxes according to different rules. For example, a flex formatting context lays out boxes according to the flex layout rules CSS3-FLEXBOX, whereas a block formatting context lays out boxes according to the block-and-inline layout rules CSS2.
+
+- [Formatting context in the W3C specs](<https://drafts.csswg.org/css-display-3/#formatting-context>)
 
 ---
 
