@@ -1,10 +1,7 @@
-theme: poster
 autoscale: true
-build-lists: true
-slidenumbers: true
 
 ## *CTFEDs*
-# Open Design Cape Town
+# Flexbox and grid
 
 ---
 
@@ -20,8 +17,7 @@ slidenumbers: true
 ---
 
 ### *What do you want to learn?*
-### *What does* open *mean to you?*
-### *What are you here today?*
+### *Why are you here today?*
 
 ---
 
@@ -29,67 +25,39 @@ slidenumbers: true
 
 ---
 
-# Lean Coffee :coffee:
-
-^ Anyone familiar?
-Demo time!
-1. Kanban
-2. Dot vote
-3. Check-ins every 5m
+## The old ways
 
 ---
 
-## *Pick a topic table*
-## (or make a new one!)
-
-^ new ones after the break
+## Formatting con-text
 
 ---
 
-## *Write down agenda ideas*
-## 1 per sticky
+## The new ways (non-technical)
 
 ---
 
-## *Dot vote*
-## 2 dots each
+## Flexbox properties
 
 ---
 
-## *Order by votes*
-## Move first one to<br>**Discussing**
+## Break (10m)
 
 ---
 
-## *Make notes*
-## Ideas, not art
-
-^ on the big paper
+## Work on flexbox (30m)
 
 ---
 
-![](sketchnotes.jpg)
+## Grid properties (30m)
 
 ---
 
-# **Discuss!**
+## Break (10m)
 
 ---
 
-# Table feedback
-
-^ We three talk through
-
----
-
-## *Handouts*
-## What I learned
-## What I'm going to do
-
----
-
-# *Break!*
-## (actual :coffee:)
+## Work on grid (till end)
 
 ---
 

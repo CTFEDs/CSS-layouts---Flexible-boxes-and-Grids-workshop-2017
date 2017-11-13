@@ -1,8 +1,3 @@
----
-layout: default
-title: Workshop outline
----
-
 # Workshop outline
 
 ## Opening activity (as people arrive)
@@ -28,6 +23,10 @@ title: Workshop outline
 
 - Discuss formatting context in relation to box model
 - Use float example with `float-root`
+
+> ...the environment into which a set of related boxes are laid out. Different formatting contexts lay out their boxes according to different rules. For example, a flex formatting context lays out boxes according to the flex layout rules CSS3-FLEXBOX, whereas a block formatting context lays out boxes according to the block-and-inline layout rules CSS2.
+
+- [Formatting context in the W3C specs](<https://drafts.csswg.org/css-display-3/#formatting-context>)
 
 ---
 
