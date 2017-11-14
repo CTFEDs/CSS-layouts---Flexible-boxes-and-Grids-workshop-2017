@@ -8,9 +8,10 @@ html {
 }
 
 body {
+  background-image: radial-gradient(ellipse farthest-side at 100% 100%, #084A9E 20%,#1cafc6 50%,#012690 110%);
   color: #334152;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  font-size: 100%;
+  font-size: 87.5%;
   margin: 0;
   letter-spacing: 0.01rem;
   line-height: 1.7;
@@ -57,8 +58,8 @@ main {
 /* header */
 
 .site-header {
-  padding: 20px;
-  background-color: #f7f7f7;
+  padding:10px 20px;
+  /*background-color: #fff;*/
 
   /* Flexbox things */
   display: flex;
@@ -92,6 +93,7 @@ nav li {
 
 nav a {
   border-radius: 20px;
+  color: white;
   display: block;
   padding:  0.3rem 1.5rem;
 }
@@ -100,40 +102,59 @@ nav a:hover {
   background-color: #22b573;
   border:  0;
   color: white;
+  text-decoration: none;
 }
 
 /* Gallery item */
 
 .gallery {
   margin: 0 -1rem;
-  padding:  2rem 0;
+  padding:  0 0 2rem 0;
 
   /* Flexbox things */
   display: flex;
   flex-wrap: wrap;
 
+
   /* Grid things */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   grid-column: 1;
   grid-row: 2 / 7;
 
 }
 
 .gallery-item {
-  background: #f7f7f7;
+  background: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   color: #444;
   margin:  0 1rem 2rem;
   text-decoration: none;
-  min-width: calc(33.33334% - 2rem);
 
   /* Flexbox things */
-  flex: 1;
+  /*flex: 0 0 calc(33.33334% - 2rem);
+  flex: 1 0 calc(33.33334% - 2rem);
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+*/
+}
+
+.gallery-item:first-child {
+  grid-column: 1/4;
+}
+
+.gallery-item:nth-of-type(2) {
+  grid-column: 1/3;
+}
+
+.gallery-item img {
+  object-fit: contain;
+  vertical-align: bottom;
+  width: 100%;
 }
 
 .gallery-text {
-  font-size: 0.875rem;
   padding: 1rem;
   width: 100%;
 
@@ -144,7 +165,12 @@ nav a:hover {
   justify-content: space-between;
 }
 
+.gallery-item h2 {
+  margin-top: 0;
+}
+
 .gallery-item p {
+  margin-top: 0;
 
   /* Flexbox things */
   flex-grow: 1;
@@ -153,7 +179,10 @@ nav a:hover {
 /* Sidebar styles */
 
 aside {
-  padding: 2rem 0 2rem 2rem;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 2rem;
+  opacity: 0.5;
 
   /* Flexbox things */
   display: flex;
@@ -172,7 +201,7 @@ aside p {
 
 .sidebar-two {
   /* Grid things */
-  grid-row: 4;
+  grid-row: 2;
 }
 
 /* Footer */
