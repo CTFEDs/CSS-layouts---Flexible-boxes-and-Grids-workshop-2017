@@ -15,3 +15,5 @@ title: Resources
 
 - [Mozilla Grid Playground](https://mozilladevelopers.github.io/playground/css-grid)
 
+- https://tympanus.net/Development/GridLayoutSlideshow/
+
