@@ -5,7 +5,9 @@ autoscale: true
 
 ---
 
-# Intros
+# About us
+
+![](content/img/caitlyn.jpeg) ![](content/img/justin.jpeg)
 
 ^ Of us
 
@@ -21,19 +23,13 @@ autoscale: true
 
 ---
 
-## Share with 3 people<br>at your table
+## Put stickies on wall
 
 ---
 
 ## The old ways
-
----
-
-## Formatting con-text
-
----
-
-## The new ways (non-technical)
+## Formatting context
+## The new ways
 
 ---
 
