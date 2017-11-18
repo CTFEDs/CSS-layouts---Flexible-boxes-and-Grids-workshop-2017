@@ -5,6 +5,8 @@ title: Workshop stuff
 
 The source for this workshop is available as a git repository on GitHub: [CTFEDs css layouts workshop](https://github.com/CTFEDs/CSS-layouts---Flexible-boxes-and-Grids-workshop-2017). Please feel free to share and use it!
 
+Practice layouts: [CSS layouts](https://github.com/CTFEDs/css-layouts)
+
 ## Documents
 
 * [Resources](resources/)
