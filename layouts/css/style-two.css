@@ -141,10 +141,12 @@ nav a:hover {
 }
 
 .gallery-item:first-child {
-  grid-column: 1;
+  order: 1;
+  /*grid-column: 1;*/
 }
 
 .gallery-item:nth-of-type(2) {
+  order: 0;
   /*grid-column: 1/3;*/
 }
 

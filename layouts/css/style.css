@@ -46,6 +46,10 @@ button {
 main {
   margin: 0 auto;
   max-width: 1240px;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: minmax(50px, auto);
 }
 
 
@@ -53,16 +57,23 @@ main {
 
 .site-header {
   padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+
+  grid-column: 1 / -1;
+
 }
 
 .siteHeader-section {
-
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0.5rem 1rem;
+  display: flex;
 }
 
 nav li {
@@ -89,6 +100,10 @@ nav a:hover {
   margin: 0 -1rem;
   padding:  0 0 2rem 0;
   display: flow-root;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: 1;
+  grid-row: 2 / 7;
 }
 
 .gallery-item {
@@ -97,15 +112,23 @@ nav a:hover {
   color: #444;
   margin:  0 1rem 2rem;
   text-decoration: none;
-  /*width: calc(25% - 2rem);*/
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 0 0 calc(33.33334% - 2rem);
+  /*flex: 1 0 calc(33.33334% - 2rem);*/
 
-  /*float: left;*/
+  float: left;
 
 }
 
 .gallery-text {
   padding: 1rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .gallery-item h2 {
@@ -114,6 +137,7 @@ nav a:hover {
 
 .gallery-item p {
   margin-top: 0;
+  flex-grow: 1;
 }
 
 /* Sidebar styles */
@@ -124,6 +148,9 @@ aside {
   clear:both;
   padding: 2rem;
   opacity: 0.5;
+
+  grid-column: 2;
+  grid-row: 2;
 }
 
 aside p {
@@ -132,7 +159,7 @@ aside p {
 
 .sidebar-two {
   /* Grid things */
-  grid-row: 2;
+  grid-row: 4;
 }
 
 /* Footer */

@@ -58,6 +58,9 @@ build-lists: true
 
 - [Formatting context in the W3C specs](<https://drafts.csswg.org/css-display-3/#formatting-context>)
 
+^
+Explain with flow root example
+
 ___
 
 # Flexbox versus grid
@@ -130,7 +133,7 @@ CSS Grid Layout introduces a two dimensional grid system to CSS. Grids can be us
 
 ## What is a grid?
 
-A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows. Onto the grid elements can be placed respecting these column and row lines.
+A grid is an intersecting set of horizontal and vertical lines – one set defining columns and the other rows. Elements are placed on the grid according to those defined lines.
 
 ---
 

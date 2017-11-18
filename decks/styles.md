@@ -120,6 +120,26 @@ Add:
 
 ---
 
+## Gallery item
+
+## `.gallery-item:first-child`
+
+Add:
+
+- `order: 1;`
+
+---
+
+## Gallery item
+
+## `.gallery-item::nth-of-type(2)`
+
+Add:
+
+- `order: 0;`
+
+---
+
 ## Grid
 
 ---
@@ -240,5 +260,5 @@ Add:
 
 Add:
 
-- `rid-column: 1/3;`
+- `grid-column: 1/3;`
 

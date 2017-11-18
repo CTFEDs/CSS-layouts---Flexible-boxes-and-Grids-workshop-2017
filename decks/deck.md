@@ -6,17 +6,27 @@ build-lists: true
 
 ---
 
+# About us
+
+![](content/img/caitlyn.jpeg) ![](content/img/justin.jpeg)
+
+^ Of us
+
+---
+
 # Download
 
 ### https://github.com/CTFEDs/css-layouts
 
 ---
 
-# About us
+## Workshop outline
 
-![](content/img/caitlyn.jpeg) ![](content/img/justin.jpeg)
-
-^ Of us
+- Old ways
+- New ways
+- Flexbox + exercise
+- Gris + exercise
+- Conclusion
 
 ---
 
