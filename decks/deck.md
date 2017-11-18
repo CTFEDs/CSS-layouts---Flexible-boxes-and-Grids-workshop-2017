@@ -1,7 +1,14 @@
 autoscale: true
+build-lists: true
 
 ## *CTFEDs*
 # Flexbox and grid
+
+---
+
+# Download
+
+### https://github.com/CTFEDs/css-layouts
 
 ---
 
@@ -10,20 +17,6 @@ autoscale: true
 ![](content/img/caitlyn.jpeg) ![](content/img/justin.jpeg)
 
 ^ Of us
-
----
-
-# Table intros
-## Grab a pen and stickies
-
----
-
-### *What do you want to learn?*
-### *Why are you here today?*
-
----
-
-## Put stickies on wall
 
 ---
 
@@ -54,6 +47,17 @@ autoscale: true
 ---
 
 ## Work on grid (till end)
+
+---
+
+# **Activity** :sparkles:
+
+- Specific, Measurable, Agreed Upon, Realistic, Time-based
+
+- What will you do next?
+
+^ SMART goal
+
 
 ---
 

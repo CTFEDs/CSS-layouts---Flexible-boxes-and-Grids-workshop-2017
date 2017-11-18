@@ -53,6 +53,13 @@ build-lists: true
 
 ---
 
+
+> ...the environment into which a set of related boxes are laid out. Different formatting contexts lay out their boxes according to different rules. For example, a flex formatting context lays out boxes according to the flex layout rules CSS3-FLEXBOX, whereas a block formatting context lays out boxes according to the block-and-inline layout rules CSS2.
+
+- [Formatting context in the W3C specs](<https://drafts.csswg.org/css-display-3/#formatting-context>)
+
+___
+
 # Flexbox versus grid
 
 - flexbox was designed for layout in one dimension, i.e. layout in a row *or* a column
