@@ -8,8 +8,8 @@ The source for this workshop is available as a git repository on GitHub: [CTFEDs
 ## Documents
 
 * [Resources](resources/)
-* [Workshop Outline](decks/print/workshop-outline/)
-* [Workshop slides](decks/print/deck.pdf) (PDF, 4MB)
-* [Workshop notes](decks/print/notes.pdf) (PDF, 4MB)
+* [Workshop Outline](decks/print/workshop-outline.pdf/) (PDF, 114kb)
+* [Workshop slides](decks/print/deck.pdf) (PDF, 107kb)
+* [Workshop notes](decks/print/notes.pdf) (PDF, 2.9MB)
     * [Deckset](http://decksetapp.com/)-flavoured markdown that it comes from: [deck.md](deck.md)
 
